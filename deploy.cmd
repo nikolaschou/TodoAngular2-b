@@ -1,5 +1,8 @@
 dir
 cd
+
+echo Installing lodash
+call  npm install lodash
 echo Installing node modules
 call  npm install -g bower grunt-cli gulp
 echo Running gulp
