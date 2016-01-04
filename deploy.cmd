@@ -1,6 +1,8 @@
 dir
 cd
-call npm install gulp
+echo Installing node modules
+call  npm install -g bower grunt-cli gulp
+echo Running gulp
 call gulp
 echo %DEPLOYMENT_SOURCE% and %DEPLOYMENT_TARGET%
 dir build
